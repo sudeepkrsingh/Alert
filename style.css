@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    header {
+        display: block;
+        min-width: 100%;
+    }
+
+    /* footer {
+        display: block;
+        width: 100%;
+    } */
+    #left-foot-part ul li,
+    #head-nav-bar ul li {
+        min-width: 100%;
+    }
+    #header {
+        min-width: 95%;
+        
+    }
+   #pwd-cont input, #pin-cont input{
+    font-size: 20px;
+    padding: 10px;
+   } 
+}
