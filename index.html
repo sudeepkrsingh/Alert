@@ -368,7 +368,7 @@
         <p id="gfg" style="color: white;"></p>
     </div>
 
-    <div class="welcome-mess">
+    <div class="welcome-mess" onclick="storeLoc()">
         <p id="demo"></p>
     </div>
 
@@ -464,7 +464,7 @@
         <p id="pwd-txt">Enter your pin to exit. </p>
         <input type="password" id="pwd" minlength="4" placeholder="Enter your pin" onchange="getLocation();GFG_Fun()">
         <div id="verifybtn" style=" margin: auto">
-            <p onclick="verifyPin();storeLoc()">Click to Verify</p>
+            <p onclick="verifyPin()">Click to Verify</p>
             <p onclick="clearpin()">Forgot Pin</p>
         </div>
     </div>
